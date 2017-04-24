@@ -1,0 +1,14 @@
+$color: #fff;
+
+body{
+	color:#000;
+	
+	a{
+		cloro:$color;
+		
+		&:hover{
+			color:red; 
+			background:#fff;
+		}
+	}
+}
